@@ -42,7 +42,7 @@ public class Main {
                     bookService.showBooksByLanguage();
                     break;
                 case 0:
-                    System.out.println("Cerrando la aplicacion...\nGracias por usar Literalura!");
+                    System.out.println("Cerrando la aplicacion...\nGracias por usar Literalura! \n");
                     break;
                 default:
                     System.out.println("Opcion invalida. Intente de nuevo.");

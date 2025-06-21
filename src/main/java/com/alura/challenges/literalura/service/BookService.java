@@ -173,9 +173,10 @@ public class BookService {
         }
         List<BookEntity> booksByLanguage = repositoryBooks.findAllByLanguageContaining(language);
         if (booksByLanguage.isEmpty()) {
-            System.out.println("***No hay libros en su biblioteca personal en ese idioma***");
+            System.out.println("***No hay libros en su biblioteca personal en " +choice+"***");
         } else {
-            System.out.println("Lista de libros en su biblioteca personal en \"" + choice + "\":");
+            System.out.println("Hay "+ booksByLanguage.size() +
+                    " libro(s) en su biblioteca personal en " + choice + ":");
             booksByLanguage.stream()
                     .sorted(Comparator.comparing(BookEntity::getTitle).reversed())
                     .forEach(System.out::println);
