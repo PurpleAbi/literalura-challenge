@@ -1,4 +1,4 @@
-package com.alura.challenges.literalura.service;
+package com.alura.challenges.literalura.integration.bookapi;
 
 import java.io.IOException;
 import java.net.URI;

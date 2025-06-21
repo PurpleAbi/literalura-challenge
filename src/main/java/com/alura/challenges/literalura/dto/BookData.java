@@ -1,4 +1,4 @@
-package com.alura.challenges.literalura.model;
+package com.alura.challenges.literalura.dto;
 
 import com.fasterxml.jackson.annotation.JsonAlias;
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
